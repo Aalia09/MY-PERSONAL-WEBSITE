@@ -27,7 +27,7 @@ body {
 }
 
 #img {
-    width: 500px;
+    width: 400px;
     border-radius: 50%;
 }
 
@@ -100,4 +100,35 @@ a {
 }
 h2{
     font-size: 30px;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
+#about{
+    background-color:indigo;
+    
+}
+#favhobby{
+    background-color: hotpink;
+}
+#work{
+    background-color: aqua;
+}
+#inspiration{
+    background-color:navy;
+}
+#app{
+   background-color:yellow;
+}
+#game{
+    background-color:orange;
+}
+#chatbot{
+    background-color:red;
 }
