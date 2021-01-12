@@ -57,29 +57,29 @@ p {
 
 .menu {
     list-style: none;
-    font-family: inherit;
-    position: absolute;
+    font-family: fantasy;
+    position: fixed;
     top: 10px;
-    right: 30px;
+    width: 100%;
     z-index: 10;
     cursor: pointer;
-    
-
+    background: white;
 }
 
 .links {
-    float: left;
-    color: white;
+    display: inline;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-right: 9px;
-    padding-left: 9px;
-    font-family: cursive;
-    font-size: 18px;
+    padding-right: 25px;
+    padding-left: 33px;
+    font-family:monospace
+    font-size: 20px;
 }
 
 .links:hover {
-    background-color: hotpink;
+    font-size: 25px;
+    text-decoration: none;
+
 }
 
 #about {
@@ -94,6 +94,8 @@ html {
 
 a {
     text-decoration: none;
+    color: purple;
+    text-shadow: 2px 2px hotpink;
 }
 .art:hover{
     color: blueviolet;
@@ -101,6 +103,27 @@ a {
 h2{
     font-size: 30px;
 }
+#game a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: palevioletred!important;
+
+}
+
+#contact {
+    background:lavender;
+}
+
+.contact1 a {
+    color: black;
+    text-shadow: none;
+
+}
+
+.contact1 h3 {
+    display: inline;
+}
+
 
 img{
     height: 400px;
