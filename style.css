@@ -93,9 +93,15 @@ html {
 }
 
 a {
+    display: block;
     text-decoration: none;
     color: purple;
     text-shadow: 2px 2px hotpink;
+    padding: 8px;
+    background-color: #dddddd;
+}
+li{
+    float: left;
 }
 .art:hover{
     color: blueviolet;
